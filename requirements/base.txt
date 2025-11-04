@@ -1,0 +1,26 @@
+# -----------------------------------------------------------------------------
+# written by: Lawrence McDaniel
+#             https://lawrencemcdaniel.com
+#
+# usage:      Python local development requirements
+# -----------------------------------------------------------------------------
+
+python-dotenv==1.1.1    # for loading environment variables from .env files
+pandas==1.5.3           # for data manipulation
+kaggle==1.7.4.5         # for Kaggle api access
+seaborn==0.13.2         # for data visualization
+scikit-learn==1.5.1     # for machine learning algorithms
+scipy==1.10.1           # for scientific computing
+shap==0.43.0            # for model interpretability
+openpyxl==3.1.5         # for Excel file support from kaggle datasets
+
+# Azure ML SDK - essential components only
+azureml-core==1.60.0.post1
+azureml-train-core==1.60.0
+azureml-pipeline-core==1.60.0
+azureml-train-automl==1.60.0
+azureml-widgets==1.60.0
+
+# Azure AI SDK - essential components only
+azure-ai-ml==1.27.1
+azure-storage-blob==12.19.0

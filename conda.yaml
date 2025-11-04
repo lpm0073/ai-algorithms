@@ -1,0 +1,9 @@
+# conda.yml
+name: automl-env
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - onnxruntime
+      - numpy
+      - pandas
