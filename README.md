@@ -19,6 +19,8 @@ Demonstrate basic AI algorithms implemented using Python, including:
 
 3. Run `source venv/bin/activate`
 
+4. Work on any of the prebuilt Jupyter Notebooks located in the [jupyter](./jupyter/) folder of this repository.
+
 ## Support
 
 Please report bugs to the [GitHub Issues Page](https://github.com/FullStackWithLawrence/ai-algorithms/issues) for this project.
