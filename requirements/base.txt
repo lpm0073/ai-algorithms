@@ -22,5 +22,5 @@ azureml-train-automl==1.60.0
 azureml-widgets==1.60.0
 
 # Azure AI SDK - essential components only
-azure-ai-ml==1.27.1
+azure-ai-ml==1.30.0
 azure-storage-blob==12.19.0
