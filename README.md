@@ -15,10 +15,9 @@ Demonstrate basic AI algorithms implemented using Python, including:
 
 1. Verify project requirements: [Python 3.13](https://www.python.org/)
 
-2. Run `make init` 
+2. Run `make init`
 
 3. Run `source venv/bin/activate`
-
 
 ## Support
 

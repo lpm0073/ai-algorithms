@@ -1,0 +1,19 @@
+# -----------------------------------------------------------------------------
+# written by: Lawrence McDaniel
+#             https://lawrencemcdaniel.com
+#
+# usage:      The common platform requirements.
+#
+# pip-compile requirements/in/base.in -o requirements/base.txt
+# -----------------------------------------------------------------------------
+
+-r constraints.in
+
+python-dotenv==1.2.1  # for loading environment variables from .env files
+pandas==2.3.3         # for data manipulation
+kaggle==1.7.4.5       # for Kaggle api access
+seaborn==0.13.2       # for data visualization
+scikit-learn==1.7.2   # for machine learning algorithms
+scipy==1.16.3         # for scientific computing
+shap==0.49.1          # for model interpretability
+openpyxl==3.1.5       # for Excel file support from kaggle datasets

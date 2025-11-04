@@ -16,7 +16,7 @@ else
     $(shell echo -e "ENVIRONMENT=dev" >> .env)
 endif
 
-.PHONY: analyze pre-commit init lint clean test build release all python-init docker-build docker-push docker-run docker-prune help
+.PHONY: analyze pre-commit init lint clean test build release all python-init help
 
 # Default target executed when no arguments are given to make.
 all: help
@@ -49,6 +49,7 @@ init:
 	make python-init && \
 	npm install && \
 	$(ACTIVATE_VENV) && \
+	$(PIP) install -U 'pip<25.3' && \
 	$(PIP) install -r requirements/local.txt && \
 	pre-commit install && \
 	deactivate
