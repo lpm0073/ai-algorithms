@@ -4,7 +4,7 @@
 #
 #    pip-compile --cert=None --client-cert=None --index-url=None --output-file=requirements/local.txt --pip-args=None requirements/in/local.in
 #
-astroid==3.3.11
+astroid==4.0.1
     # via pylint
 bandit==1.8.5
     # via -r requirements/in/local.in
