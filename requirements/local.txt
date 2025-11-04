@@ -11,7 +11,7 @@ azure.functions==1.23.0   # used for linting code in ./titanic-survival-app/__in
 
 # Code linters, formatters, and security scanners
 # ------------
-black==25.1.0
+black==25.9.0
 flake8==7.3.0
 flake8-coding==1.3.2
 pre-commit==4.2.0
